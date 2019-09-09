@@ -1,0 +1,22 @@
+{
+	"name" : "concurrent-php/async-api",
+	"description" : "Async extension API stubs and helpers.",
+	"license" : "PHP-3.01",
+	"homepage" : "https://github.com/concurrent-php/async-api",
+	"authors" : [{
+			"name" : "Martin Schröder",
+			"email" : "m.schroeder2007@gmail.com"
+		}
+	],
+	"require" : {
+		"php" : ">=7.3"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"Concurrent\\" : "src/"
+		},
+		"files" : [
+			"src/functions.php"
+		]
+	}
+}
